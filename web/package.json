@@ -9,7 +9,7 @@
     "lint": "eslint",
     "test": "vitest run",
     "coverage": "vitest run --coverage",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "next typegen && tsc --noEmit"
   },
   "dependencies": {
     "@stripe/react-stripe-js": "^7.0.1",

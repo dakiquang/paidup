@@ -76,6 +76,6 @@ Sign in with `demo@paidup.test` and `password`. This account exists only in the 
 | Web | `npm run lint`, `npm run typecheck`, `npm run coverage`, `npm run build` |
 | Mobile | `npm run typecheck`, `npm run coverage` |
 
-CI runs all of these on every push, and the API job fails below 90% coverage.
+CI runs all of these on every push, and the API job fails below 90% coverage. API coverage is currently 97.8%.
 
 Built by [Quang Dang](https://quangdk.com).
